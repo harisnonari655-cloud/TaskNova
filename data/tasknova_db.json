@@ -1,0 +1,740 @@
+{
+  "profiles": [
+    {
+      "id": "usr_admin_001",
+      "email": "admin@tasknova.io",
+      "password_hash": "9ab4a3acc1cea1b3f9d9ad28905d8ad119f3765df60f606b543c8cbbfa5d8480",
+      "full_name": "Platform Operations Admin",
+      "role": "admin",
+      "phone": "+92 300 1234567",
+      "email_verified": true,
+      "risk_flag": false,
+      "status": "active",
+      "created_at": "2026-09-24T17:44:50.972Z",
+      "updated_at": "2026-10-24T17:44:50.973Z"
+    },
+    {
+      "id": "usr_client_001",
+      "email": "client@tasknova.io",
+      "password_hash": "723eda32c780dd44b565eb7f63c10b6b909a2084e440a2f93351a6224a1b576b",
+      "full_name": "Apex Digital Solutions",
+      "role": "client",
+      "phone": "+92 321 9876543",
+      "email_verified": true,
+      "risk_flag": false,
+      "status": "active",
+      "created_at": "2026-10-04T17:44:50.973Z",
+      "updated_at": "2026-10-24T17:44:50.973Z"
+    },
+    {
+      "id": "usr_worker_001",
+      "email": "worker@tasknova.io",
+      "password_hash": "74562dab7397e8d933b981c034f003042ca4ebe8e2c1d3949f3ae8bcd5263a72",
+      "full_name": "Zainab Ahmed",
+      "role": "worker",
+      "phone": "+92 333 4567890",
+      "email_verified": true,
+      "payout_method": "easypaisa",
+      "payout_account_number": "03334567890",
+      "payout_account_title": "Zainab Ahmed",
+      "risk_flag": false,
+      "status": "active",
+      "created_at": "2026-10-09T17:44:50.974Z",
+      "updated_at": "2026-10-24T17:44:50.974Z"
+    }
+  ],
+  "client_accounts": [
+    {
+      "id": "clt_001",
+      "user_id": "usr_client_001",
+      "company_name": "Apex Digital Solutions",
+      "verified_status": "verified",
+      "total_funded_minor": 1500000,
+      "currency": "PKR",
+      "created_at": "2026-10-04T17:44:50.974Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk_001",
+      "client_id": "usr_client_001",
+      "client_name": "Apex Digital Solutions",
+      "title": "E-Commerce Product Categorization & Attribute Audit",
+      "description": "Review 10 product listings, categorize them into standardized e-commerce taxonomies, and verify title clarity.",
+      "category": "data_categorization",
+      "instructions": "1. Access provided item SKU spreadsheet link.\n2. Assign primary and secondary product categories according to guidelines.\n3. Note missing attributes (dimensions, material, manufacturer).\n4. Provide completed spreadsheet or verification report link.",
+      "acceptance_criteria": "All 10 items must have accurate category classification with zero missing mandatory fields.",
+      "evidence_type": "text_and_url",
+      "reward_per_slot_minor": 5000,
+      "max_slots": 50,
+      "approved_slots": 12,
+      "total_required_budget_minor": 250000,
+      "funded_budget_minor": 250000,
+      "remaining_budget_minor": 190000,
+      "status": "active",
+      "currency": "PKR",
+      "estimated_minutes": 15,
+      "deadline": "2026-11-03T17:44:50.974Z",
+      "created_at": "2026-10-14T17:44:50.974Z",
+      "updated_at": "2026-10-24T17:44:50.974Z"
+    },
+    {
+      "id": "tsk_002",
+      "client_id": "usr_client_001",
+      "client_name": "Apex Digital Solutions",
+      "title": "Customer Onboarding Flow Usability Review",
+      "description": "Walk through the checkout and signup interface on our staging domain and document usability friction points.",
+      "category": "usability_testing",
+      "instructions": "1. Open staging onboarding URL.\n2. Complete user registration process.\n3. Document any confusing steps, loading lags, or error state ambiguities.\n4. Submit concise written observations with screenshots or timestamped notes.",
+      "acceptance_criteria": "Detailed, constructive critique covering minimum 3 specific steps with actionable feedback.",
+      "evidence_type": "text_and_url",
+      "reward_per_slot_minor": 15000,
+      "max_slots": 20,
+      "approved_slots": 4,
+      "total_required_budget_minor": 300000,
+      "funded_budget_minor": 300000,
+      "remaining_budget_minor": 240000,
+      "status": "active",
+      "currency": "PKR",
+      "estimated_minutes": 25,
+      "deadline": "2026-10-31T17:44:50.974Z",
+      "created_at": "2026-10-16T17:44:50.974Z",
+      "updated_at": "2026-10-24T17:44:50.974Z"
+    },
+    {
+      "id": "tsk_003",
+      "client_id": "usr_client_001",
+      "client_name": "Apex Digital Solutions",
+      "title": "Urdu Audio Transcription Snippet (2 Minutes)",
+      "description": "Transcribe a 2-minute clear Urdu customer service phone call excerpt into accurate Urdu text.",
+      "category": "transcription",
+      "instructions": "1. Listen to audio clip via secure player.\n2. Type exact spoken Urdu dialogue without omissions.\n3. Mark speaker turns (Speaker A / Speaker B).\n4. Review spelling against standard dictionary forms.",
+      "acceptance_criteria": "Accuracy >= 95% word error rate, correct punctuation and speaker labeling.",
+      "evidence_type": "text_and_url",
+      "reward_per_slot_minor": 8000,
+      "max_slots": 30,
+      "approved_slots": 2,
+      "total_required_budget_minor": 240000,
+      "funded_budget_minor": 240000,
+      "remaining_budget_minor": 224000,
+      "status": "active",
+      "currency": "PKR",
+      "estimated_minutes": 20,
+      "deadline": "2026-11-07T17:44:50.974Z",
+      "created_at": "2026-10-19T17:44:50.974Z",
+      "updated_at": "2026-10-24T17:44:50.974Z"
+    },
+    {
+      "id": "tsk_914cf86b",
+      "client_id": "usr_client_001",
+      "client_name": "Apex Digital Solutions",
+      "title": "Automated Test Task 3 - Unfunded",
+      "description": "Testing task activation lifecycle without funding",
+      "category": "data_categorization",
+      "instructions": "Complete audit",
+      "acceptance_criteria": "Zero errors",
+      "evidence_type": "text_and_url",
+      "reward_per_slot_minor": 1000,
+      "max_slots": 10,
+      "approved_slots": 1,
+      "total_required_budget_minor": 10000,
+      "funded_budget_minor": 10000,
+      "remaining_budget_minor": 9000,
+      "status": "active",
+      "currency": "PKR",
+      "estimated_minutes": 10,
+      "deadline": "2026-10-25T17:44:50.974Z",
+      "created_at": "2026-10-24T17:44:50.975Z",
+      "updated_at": "2026-10-24T17:44:50.978Z"
+    }
+  ],
+  "task_funding": [
+    {
+      "id": "fnd_001",
+      "task_id": "tsk_001",
+      "client_id": "usr_client_001",
+      "task_title": "E-Commerce Product Categorization & Attribute Audit",
+      "amount_minor": 250000,
+      "currency": "PKR",
+      "method": "bank_transfer",
+      "payment_reference": "HBL-FT-99201481",
+      "proof_notes": "Transferred from Habib Bank corporate account to TaskNova bank desk.",
+      "status": "verified",
+      "verified_amount_minor": 250000,
+      "verified_by": "usr_admin_001",
+      "verified_at": "2026-10-15T17:44:50.974Z",
+      "created_at": "2026-10-14T17:44:50.974Z"
+    },
+    {
+      "id": "fnd_002",
+      "task_id": "tsk_002",
+      "client_id": "usr_client_001",
+      "task_title": "Customer Onboarding Flow Usability Review",
+      "amount_minor": 300000,
+      "currency": "PKR",
+      "method": "easypaisa",
+      "payment_reference": "EP-98440192",
+      "proof_notes": "Easypaisa merchant payment reference confirmed by bank statement.",
+      "status": "verified",
+      "verified_amount_minor": 300000,
+      "verified_by": "usr_admin_001",
+      "verified_at": "2026-10-17T17:44:50.974Z",
+      "created_at": "2026-10-16T17:44:50.974Z"
+    },
+    {
+      "id": "fnd_003",
+      "task_id": "tsk_003",
+      "client_id": "usr_client_001",
+      "task_title": "Urdu Audio Transcription Snippet (2 Minutes)",
+      "amount_minor": 240000,
+      "currency": "PKR",
+      "method": "jazzcash",
+      "payment_reference": "JC-77319024",
+      "proof_notes": "JazzCash till transfer verified via merchant SMS statement.",
+      "status": "verified",
+      "verified_amount_minor": 240000,
+      "verified_by": "usr_admin_001",
+      "verified_at": "2026-10-20T17:44:50.974Z",
+      "created_at": "2026-10-19T17:44:50.974Z"
+    },
+    {
+      "id": "fnd_aca62fab",
+      "task_id": "tsk_914cf86b",
+      "client_id": "usr_client_001",
+      "task_title": "Automated Test Task 3 - Unfunded",
+      "amount_minor": 10000,
+      "currency": "PKR",
+      "method": "bank_transfer",
+      "payment_reference": "TEST-UNVERIFIED-1234",
+      "status": "verified",
+      "created_at": "2026-10-24T17:44:50.976Z",
+      "verified_amount_minor": 10000,
+      "verified_by": "usr_admin_001",
+      "verified_at": "2026-10-24T17:44:50.977Z"
+    }
+  ],
+  "task_submissions": [
+    {
+      "id": "sub_001",
+      "task_id": "tsk_001",
+      "task_title": "E-Commerce Product Categorization & Attribute Audit",
+      "worker_id": "usr_worker_001",
+      "worker_name": "Zainab Ahmed",
+      "reward_amount_minor": 5000,
+      "evidence_notes": "Completed all 10 SKU classifications in the shared sheet. Added material composition attributes for 4 kitchen items that lacked packaging details.",
+      "evidence_links": "https://docs.google.com/spreadsheets/d/tasknova-sample-sku-audit",
+      "status": "approved",
+      "reviewer_id": "usr_client_001",
+      "reviewed_at": "2026-10-20T17:44:50.974Z",
+      "reward_credited": true,
+      "created_at": "2026-10-19T17:44:50.974Z"
+    },
+    {
+      "id": "sub_002",
+      "task_id": "tsk_002",
+      "task_title": "Customer Onboarding Flow Usability Review",
+      "worker_id": "usr_worker_001",
+      "worker_name": "Zainab Ahmed",
+      "reward_amount_minor": 15000,
+      "evidence_notes": "Detailed step-by-step UX analysis of signup modal. Identified that SMS OTP input lost focus on mobile keyboards and error toast disappeared after 1 second.",
+      "evidence_links": "https://gist.github.com/tasknova/onboarding-ux-report",
+      "status": "approved",
+      "reviewer_id": "usr_client_001",
+      "reviewed_at": "2026-10-22T17:44:50.974Z",
+      "reward_credited": true,
+      "created_at": "2026-10-21T17:44:50.974Z"
+    },
+    {
+      "id": "sub_ac9d8765",
+      "task_id": "tsk_914cf86b",
+      "task_title": "Automated Test Task 3 - Unfunded",
+      "worker_id": "usr_worker_001",
+      "worker_name": "Zainab Ahmed",
+      "reward_amount_minor": 1000,
+      "evidence_notes": "Completed test work correctly",
+      "evidence_links": "https://test.example.com/proof",
+      "status": "approved",
+      "reward_credited": true,
+      "created_at": "2026-10-24T17:44:50.977Z",
+      "reviewer_id": "usr_client_001",
+      "reviewed_at": "2026-10-24T17:44:50.978Z"
+    }
+  ],
+  "wallet_accounts": [
+    {
+      "user_id": "usr_worker_001",
+      "currency": "PKR",
+      "available_minor": 1000,
+      "pending_minor": 0,
+      "reserved_minor": 0,
+      "withdrawn_minor": 20000,
+      "total_earned_minor": 21000,
+      "updated_at": "2026-10-24T17:44:50.981Z"
+    }
+  ],
+  "wallet_ledger": [
+    {
+      "id": "ldg_001",
+      "user_id": "usr_worker_001",
+      "transaction_type": "worker_reward_credit",
+      "direction": "credit",
+      "amount_minor": 5000,
+      "currency": "PKR",
+      "related_entity_type": "submission",
+      "related_entity_id": "sub_001",
+      "balance_after_minor": 5000,
+      "actor_id": "usr_client_001",
+      "idempotency_key": "idemp_sub_001_approve",
+      "notes": "Task reward credit for approved SKU categorization submission #sub_001",
+      "created_at": "2026-10-20T17:44:50.974Z"
+    },
+    {
+      "id": "ldg_002",
+      "user_id": "usr_worker_001",
+      "transaction_type": "worker_reward_credit",
+      "direction": "credit",
+      "amount_minor": 15000,
+      "currency": "PKR",
+      "related_entity_type": "submission",
+      "related_entity_id": "sub_002",
+      "balance_after_minor": 20000,
+      "actor_id": "usr_client_001",
+      "idempotency_key": "idemp_sub_002_approve",
+      "notes": "Task reward credit for approved UX audit submission #sub_002",
+      "created_at": "2026-10-22T17:44:50.974Z"
+    },
+    {
+      "id": "ldg_003",
+      "user_id": "usr_worker_001",
+      "transaction_type": "withdrawal_reservation",
+      "direction": "debit",
+      "amount_minor": 10000,
+      "currency": "PKR",
+      "related_entity_type": "withdrawal",
+      "related_entity_id": "wth_001",
+      "balance_after_minor": 10000,
+      "actor_id": "usr_worker_001",
+      "idempotency_key": "idemp_wth_001_reserve",
+      "notes": "Reserved PKR 100.00 for manual withdrawal request #wth_001 to Easypaisa",
+      "created_at": "2026-10-23T17:44:50.974Z"
+    },
+    {
+      "id": "ldg_004",
+      "user_id": "usr_worker_001",
+      "transaction_type": "withdrawal_completed",
+      "direction": "debit",
+      "amount_minor": 10000,
+      "currency": "PKR",
+      "related_entity_type": "withdrawal",
+      "related_entity_id": "wth_001",
+      "balance_after_minor": 10000,
+      "actor_id": "usr_admin_001",
+      "idempotency_key": "idemp_wth_001_complete",
+      "notes": "Withdrawal fulfilled and reconciled by Admin. Ref: EP-TRX-8819024",
+      "created_at": "2026-10-24T05:44:50.974Z"
+    },
+    {
+      "id": "ldg_97f7b4d8",
+      "user_id": "usr_client_001",
+      "transaction_type": "client_funding_received",
+      "direction": "credit",
+      "amount_minor": 10000,
+      "currency": "PKR",
+      "related_entity_type": "funding",
+      "related_entity_id": "fnd_aca62fab",
+      "balance_after_minor": 10000,
+      "actor_id": "usr_admin_001",
+      "idempotency_key": "idemp_fund_fnd_aca62fab",
+      "notes": "Verified incoming client payment via bank_transfer. Ref: TEST-UNVERIFIED-1234",
+      "created_at": "2026-10-24T17:44:50.977Z"
+    },
+    {
+      "id": "ldg_3fa41a00",
+      "user_id": "usr_worker_001",
+      "transaction_type": "worker_reward_credit",
+      "direction": "credit",
+      "amount_minor": 1000,
+      "currency": "PKR",
+      "related_entity_type": "submission",
+      "related_entity_id": "sub_ac9d8765",
+      "balance_after_minor": 11000,
+      "actor_id": "usr_client_001",
+      "idempotency_key": "idemp_sub_sub_ac9d8765_approve",
+      "notes": "Reward credited for approved submission #sub_ac9d8765 on \"Automated Test Task 3 - Unfunded\"",
+      "created_at": "2026-10-24T17:44:50.978Z"
+    },
+    {
+      "id": "ldg_00ab2172",
+      "user_id": "usr_worker_001",
+      "transaction_type": "withdrawal_reservation",
+      "direction": "debit",
+      "amount_minor": 10000,
+      "currency": "PKR",
+      "related_entity_type": "withdrawal",
+      "related_entity_id": "wth_a4ef4363",
+      "balance_after_minor": 1000,
+      "actor_id": "usr_worker_001",
+      "idempotency_key": "idemp_wth_a4ef4363_reserve",
+      "notes": "Reserved PKR 100.00 for easypaisa payout request",
+      "created_at": "2026-10-24T17:44:50.979Z"
+    },
+    {
+      "id": "ldg_f5bd6cfb",
+      "user_id": "usr_worker_001",
+      "transaction_type": "withdrawal_cancelled_release",
+      "direction": "credit",
+      "amount_minor": 10000,
+      "currency": "PKR",
+      "related_entity_type": "withdrawal",
+      "related_entity_id": "wth_a4ef4363",
+      "balance_after_minor": 11000,
+      "actor_id": "usr_admin_001",
+      "idempotency_key": "idemp_wth_a4ef4363_release",
+      "notes": "Released reserved PKR 100.00 back to available balance. Reason: Test cancellation release",
+      "created_at": "2026-10-24T17:44:50.979Z"
+    },
+    {
+      "id": "ldg_0741785d",
+      "user_id": "usr_worker_001",
+      "transaction_type": "withdrawal_reservation",
+      "direction": "debit",
+      "amount_minor": 10000,
+      "currency": "PKR",
+      "related_entity_type": "withdrawal",
+      "related_entity_id": "wth_8de0e1b0",
+      "balance_after_minor": 1000,
+      "actor_id": "usr_worker_001",
+      "idempotency_key": "idemp_wth_8de0e1b0_reserve",
+      "notes": "Reserved PKR 100.00 for jazzcash payout request",
+      "created_at": "2026-10-24T17:44:50.980Z"
+    },
+    {
+      "id": "ldg_3cd20ac4",
+      "user_id": "usr_worker_001",
+      "transaction_type": "withdrawal_completed",
+      "direction": "debit",
+      "amount_minor": 10000,
+      "currency": "PKR",
+      "related_entity_type": "withdrawal",
+      "related_entity_id": "wth_8de0e1b0",
+      "balance_after_minor": 1000,
+      "actor_id": "usr_admin_001",
+      "idempotency_key": "idemp_wth_8de0e1b0_complete",
+      "notes": "Withdrawal payout executed via jazzcash. External reference: JC-EXT-RECON-77661",
+      "created_at": "2026-10-24T17:44:50.981Z"
+    }
+  ],
+  "withdrawal_requests": [
+    {
+      "id": "wth_001",
+      "worker_id": "usr_worker_001",
+      "worker_name": "Zainab Ahmed",
+      "amount_minor": 10000,
+      "currency": "PKR",
+      "method": "easypaisa",
+      "account_number_masked": "0333****890",
+      "account_title": "Zainab Ahmed",
+      "status": "completed",
+      "reviewed_by": "usr_admin_001",
+      "created_at": "2026-10-23T17:44:50.974Z",
+      "updated_at": "2026-10-24T05:44:50.974Z"
+    },
+    {
+      "id": "wth_a4ef4363",
+      "worker_id": "usr_worker_001",
+      "worker_name": "Zainab Ahmed",
+      "amount_minor": 10000,
+      "currency": "PKR",
+      "method": "easypaisa",
+      "account_number_masked": "030****567",
+      "account_title": "Test Worker",
+      "status": "rejected",
+      "created_at": "2026-10-24T17:44:50.979Z",
+      "updated_at": "2026-10-24T17:44:50.979Z",
+      "rejection_reason": "Test cancellation release",
+      "reviewed_by": "usr_admin_001"
+    },
+    {
+      "id": "wth_8de0e1b0",
+      "worker_id": "usr_worker_001",
+      "worker_name": "Zainab Ahmed",
+      "amount_minor": 10000,
+      "currency": "PKR",
+      "method": "jazzcash",
+      "account_number_masked": "030****776",
+      "account_title": "Test Worker",
+      "status": "completed",
+      "created_at": "2026-10-24T17:44:50.980Z",
+      "updated_at": "2026-10-24T17:44:50.981Z",
+      "reviewed_by": "usr_admin_001"
+    }
+  ],
+  "payout_reconciliation": [
+    {
+      "id": "payout_001",
+      "withdrawal_id": "wth_001",
+      "actual_payment_reference": "EP-TRX-8819024",
+      "external_rail": "easypaisa",
+      "actual_amount_paid_minor": 10000,
+      "currency": "PKR",
+      "processed_by_admin": "usr_admin_001",
+      "admin_notes": "Paid manually through verified corporate Easypaisa account. Reference confirmed on receipt.",
+      "confirmation_timestamp": "2026-10-24T05:44:50.974Z"
+    },
+    {
+      "id": "payrec_51a4984f",
+      "withdrawal_id": "wth_8de0e1b0",
+      "actual_payment_reference": "JC-EXT-RECON-77661",
+      "external_rail": "jazzcash",
+      "actual_amount_paid_minor": 10000,
+      "currency": "PKR",
+      "processed_by_admin": "usr_admin_001",
+      "admin_notes": "Verified against bank desk",
+      "confirmation_timestamp": "2026-10-24T17:44:50.981Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_0e308f0a",
+      "user_id": "usr_worker_001",
+      "title": "Withdrawal Processed",
+      "message": "Your withdrawal of PKR 100.00 has been paid to your jazzcash account. Ref: JC-EXT-RECON-77661",
+      "type": "withdrawal",
+      "read": false,
+      "created_at": "2026-10-24T17:44:50.981Z"
+    },
+    {
+      "id": "notif_bdc59dd4",
+      "user_id": "usr_worker_001",
+      "title": "Withdrawal Rejected",
+      "message": "Your withdrawal for PKR 100.00 was rejected. PKR 100.00 has been refunded to your available balance.",
+      "type": "withdrawal",
+      "read": false,
+      "created_at": "2026-10-24T17:44:50.980Z"
+    },
+    {
+      "id": "notif_68d95b3a",
+      "user_id": "usr_worker_001",
+      "title": "Work Approved! Reward Credited",
+      "message": "Your work on \"Automated Test Task 3 - Unfunded\" was approved. PKR 10.00 has been added to your available wallet balance.",
+      "type": "submission",
+      "read": false,
+      "created_at": "2026-10-24T17:44:50.978Z"
+    },
+    {
+      "id": "notif_3266d31e",
+      "user_id": "usr_client_001",
+      "title": "Funding Verified",
+      "message": "Your payment of PKR 100.00 for \"Automated Test Task 3 - Unfunded\" has been verified. Task is now funded.",
+      "type": "funding",
+      "read": false,
+      "created_at": "2026-10-24T17:44:50.977Z"
+    },
+    {
+      "id": "notif_001",
+      "user_id": "usr_worker_001",
+      "title": "Task Approved",
+      "message": "Your submission for \"E-Commerce Product Categorization\" was approved. PKR 50.00 credited to ledger.",
+      "type": "submission",
+      "read": true,
+      "created_at": "2026-10-20T17:44:50.974Z"
+    },
+    {
+      "id": "notif_002",
+      "user_id": "usr_worker_001",
+      "title": "Payout Completed",
+      "message": "Your withdrawal request for PKR 100.00 has been sent to your Easypaisa account. Ref: EP-TRX-8819024.",
+      "type": "withdrawal",
+      "read": false,
+      "created_at": "2026-10-24T05:44:50.974Z"
+    }
+  ],
+  "support_tickets": [
+    {
+      "id": "tkt_001",
+      "user_id": "usr_worker_001",
+      "user_name": "Zainab Ahmed",
+      "subject": "Inquiry regarding Urdu transcription format",
+      "category": "task_review",
+      "message": "Should background noise tags like [music] or [cough] be transcribed or omitted in Urdu tasks?",
+      "status": "resolved",
+      "admin_reply": "Please only transcribe spoken words and omit environmental sounds unless explicitly requested in client instructions.",
+      "created_at": "2026-10-21T17:44:50.974Z",
+      "updated_at": "2026-10-22T17:44:50.974Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "aud_2b930f03",
+      "actor_id": "usr_admin_001",
+      "actor_role": "admin",
+      "action": "RECONCILE_WITHDRAWAL_PAYMENT",
+      "resource_type": "withdrawal_request",
+      "resource_id": "wth_8de0e1b0",
+      "reason": "Verified against bank desk",
+      "details": {
+        "ref": "JC-EXT-RECON-77661",
+        "amount_minor": 10000
+      },
+      "created_at": "2026-10-24T17:44:50.981Z"
+    },
+    {
+      "id": "aud_4ac59053",
+      "actor_id": "usr_worker_001",
+      "actor_role": "worker",
+      "action": "REQUEST_WITHDRAWAL",
+      "resource_type": "withdrawal_request",
+      "resource_id": "wth_8de0e1b0",
+      "details": {
+        "amount_minor": 10000,
+        "method": "jazzcash"
+      },
+      "created_at": "2026-10-24T17:44:50.980Z"
+    },
+    {
+      "id": "aud_45a9d6ee",
+      "actor_id": "usr_admin_001",
+      "actor_role": "admin",
+      "action": "REJECT_WITHDRAWAL",
+      "resource_type": "withdrawal_request",
+      "resource_id": "wth_a4ef4363",
+      "reason": "Test cancellation release",
+      "details": {
+        "amount_minor": 10000
+      },
+      "created_at": "2026-10-24T17:44:50.980Z"
+    },
+    {
+      "id": "aud_5b87c52d",
+      "actor_id": "usr_worker_001",
+      "actor_role": "worker",
+      "action": "REQUEST_WITHDRAWAL",
+      "resource_type": "withdrawal_request",
+      "resource_id": "wth_a4ef4363",
+      "details": {
+        "amount_minor": 10000,
+        "method": "easypaisa"
+      },
+      "created_at": "2026-10-24T17:44:50.979Z"
+    },
+    {
+      "id": "aud_2f36ce79",
+      "actor_id": "usr_client_001",
+      "actor_role": "client",
+      "action": "REVIEW_SUBMISSION",
+      "resource_type": "task_submission",
+      "resource_id": "sub_ac9d8765",
+      "details": {
+        "decision": "approved",
+        "reward_minor": 1000
+      },
+      "created_at": "2026-10-24T17:44:50.978Z"
+    },
+    {
+      "id": "aud_73589265",
+      "actor_id": "usr_worker_001",
+      "actor_role": "worker",
+      "action": "SUBMIT_WORK",
+      "resource_type": "task_submission",
+      "resource_id": "sub_ac9d8765",
+      "details": {
+        "task_id": "tsk_914cf86b"
+      },
+      "created_at": "2026-10-24T17:44:50.977Z"
+    },
+    {
+      "id": "aud_a8fcef86",
+      "actor_id": "usr_admin_001",
+      "actor_role": "admin",
+      "action": "VERIFY_CLIENT_FUNDING",
+      "resource_type": "task_funding",
+      "resource_id": "fnd_aca62fab",
+      "details": {
+        "decision": "verified",
+        "amount_minor": 10000
+      },
+      "created_at": "2026-10-24T17:44:50.977Z"
+    },
+    {
+      "id": "aud_27b86601",
+      "actor_id": "usr_client_001",
+      "actor_role": "client",
+      "action": "REPORT_FUNDING",
+      "resource_type": "task_funding",
+      "resource_id": "fnd_aca62fab",
+      "details": {
+        "task_id": "tsk_914cf86b",
+        "amount_minor": 10000,
+        "ref": "TEST-UNVERIFIED-1234"
+      },
+      "created_at": "2026-10-24T17:44:50.976Z"
+    },
+    {
+      "id": "aud_2cd7497d",
+      "actor_id": "usr_admin_001",
+      "actor_role": "admin",
+      "action": "MODERATE_TASK",
+      "resource_type": "task",
+      "resource_id": "tsk_914cf86b",
+      "details": {
+        "decision": "approved",
+        "status": "approved_unfunded"
+      },
+      "created_at": "2026-10-24T17:44:50.976Z"
+    },
+    {
+      "id": "aud_39a4dccc",
+      "actor_id": "usr_client_001",
+      "actor_role": "client",
+      "action": "CREATE_TASK",
+      "resource_type": "task",
+      "resource_id": "tsk_914cf86b",
+      "details": {
+        "title": "Automated Test Task 3 - Unfunded",
+        "budget_minor": 10000
+      },
+      "created_at": "2026-10-24T17:44:50.975Z"
+    },
+    {
+      "id": "aud_001",
+      "actor_id": "usr_admin_001",
+      "actor_role": "admin",
+      "action": "VERIFY_CLIENT_FUNDING",
+      "resource_type": "task_funding",
+      "resource_id": "fnd_001",
+      "reason": "Bank transfer receipt HBL-FT-99201481 reconciled with official bank credit statement.",
+      "details": {
+        "amount_minor": 250000,
+        "currency": "PKR",
+        "task_id": "tsk_001"
+      },
+      "created_at": "2026-10-15T17:44:50.974Z"
+    },
+    {
+      "id": "aud_002",
+      "actor_id": "usr_admin_001",
+      "actor_role": "admin",
+      "action": "RECONCILE_WITHDRAWAL_PAYMENT",
+      "resource_type": "withdrawal_request",
+      "resource_id": "wth_001",
+      "reason": "External Easypaisa transfer EP-TRX-8819024 confirmed delivered.",
+      "details": {
+        "amount_minor": 10000,
+        "currency": "PKR",
+        "worker_id": "usr_worker_001"
+      },
+      "created_at": "2026-10-24T05:44:50.974Z"
+    }
+  ],
+  "platform_settings": {
+    "min_withdrawal_minor": 10000,
+    "pkr_paisa_multiplier": 100,
+    "manual_payout_rails": [
+      "easypaisa",
+      "jazzcash",
+      "bank_transfer"
+    ],
+    "max_slots_per_task": 1000,
+    "platform_fee_percent": 0
+  }
+}

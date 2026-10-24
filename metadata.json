@@ -1,0 +1,6 @@
+{
+  "name": "TaskNova",
+  "description": "Production-grade microtask marketplace with client-funded task budgets, verified external payments, immutable wallet ledger, worker evidence submissions, and manual withdrawal reconciliation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
